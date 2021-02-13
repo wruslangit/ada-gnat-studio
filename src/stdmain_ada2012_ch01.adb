@@ -4,9 +4,11 @@
 -- #1 SMP PREEMPT_RT Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
 -- Author: WRY
 -- ========================================================
--- GPS 19.2 (@GPS_DATE@) hosted on x86_64-linux-gnu)
--- GNAT 9.3.0 the GNAT Programming Studio (c) 2001-2019.2 AdaCore
--- AppIDE: /usr/bin/gnat-gps
+-- GNAT Studio Community 2020 (20200427) hosted on x86_64-pc-linux-gnu
+-- GNAT 9.3.0 targetting x86_64-linux-gnu
+-- SPARK Community 2020 (20200818) GNAT Studio (c) 2001-2020 AdaCore
+-- AppIDE: /home/wruslan/opt/GNAT/2020/bin/gnatstudio
+
 -- ========================================================
 
 -- ADA STANDARD PACKAGES
