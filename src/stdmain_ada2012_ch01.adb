@@ -17,7 +17,7 @@ with Ada.Text_IO;
 -- USER CREATED PACKAGES
 
 -- ========================================================
-procedure stdmain_ada2012_ch01 is
+procedure stdmain_ada2012_ch01 with SPARK_Mode is
 -- ========================================================
    package ATIO    renames Ada.Text_IO;
 
@@ -25,20 +25,22 @@ begin
    ATIO.Put_line("Bismillah WRY for stdmain_ada2012_ch01.adb" );
 
    ATIO.Put_line("Alhamdulillah WRY for stdmain_ada2012_ch01.adb" );
+
 -- ========================================================
 -- Catch every possible error using built-in package Ada.Standard
+-- NOTE: Cannot use with SPARK_Mode.
 -- ========================================================
-exception
-	when Constraint_Error =>
-		ATIO.Put_Line("Constraint_Error raised.");
-	when Program_Error =>
-		ATIO.Put_Line("Program_Error raised.");
-	when Storage_Error =>
-		ATIO.Put_Line("Storage_Error raised.");
-	when Tasking_Error =>
-		ATIO.Put_Line("Task_Error raised.");
-	when Others =>
-       ATIO.Put_Line("Others raised. Unknown error.");
+-- exception
+	--when Constraint_Error =>
+		-- ATIO.Put_Line("Constraint_Error raised.");
+	--when Program_Error =>
+		-- ATIO.Put_Line("Program_Error raised.");
+	--when Storage_Error =>
+		-- ATIO.Put_Line("Storage_Error raised.");
+	--when Tasking_Error =>
+		-- ATIO.Put_Line("Task_Error raised.");
+	--when Others =>
+       -- ATIO.Put_Line("Others raised. Unknown error.");
 
   -- null;
 end stdmain_ada2012_ch01;

@@ -1,18 +1,15 @@
 V "GNAT Lib v9"
 M P W=b
 A -gnatA
-A -gnat2012
 A -mtune=generic
 A -march=x86-64
 P ZX
 
 RN
-RV NO_EXCEPTION_HANDLERS
-RV NO_EXCEPTIONS
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U stdmain_ada2012_ch01%b  stdmain_ada2012_ch01.adb  cbc1f12a NE OO SU IL
+U stdmain_ada2012_ch01%b  stdmain_ada2012_ch01.adb  5d5a20e9 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
@@ -25,7 +22,7 @@ D a-textio.ads		20200312110721 881db35a ada.text_io%s
 D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20200312110721 5ab55268 interfaces%s
 D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
-D stdmain_ada2012_ch01.adb  20210213061807 43dc4270 stdmain_ada2012_ch01%b
+D stdmain_ada2012_ch01.adb  20210213074141 d54793b3 stdmain_ada2012_ch01%b
 D system.ads		20200312110721 4635ec04 system%s
 D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
 D s-exctab.ads		20200312110721 54135002 system.exception_table%s
@@ -40,11 +37,11 @@ D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 20e8 10|13r6 20r28
+16K9*Ada 20e8 10|15r6 22r28
 X 6 a-textio.ads
-49K13*Text_IO 471e16 10|13w10 20r32
-263U14*Put_Line 10|23s9 25s9 31s22 33s22 35s22 37s22 39s13
+49K13*Text_IO 471e16 10|15w10 22r32
+263U14*Put_Line 10|25s9 27s9 33s22 35s22 37s22 39s22 41s13
 X 10 stdmain_ada2012_ch01.adb
-18U11*stdmain_ada2012_ch01 18b11 42l5 42t25
-20K12 ATIO=20:32 23r4 25r4 31r17 33r17 35r17 37r17 39r8
+20U11*stdmain_ada2012_ch01 20b11 44l5 44t25
+22K12 ATIO=22:32 25r4 27r4 33r17 35r17 37r17 39r17 41r8
 

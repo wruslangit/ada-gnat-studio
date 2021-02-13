@@ -1,8 +1,19 @@
 <?xml version="1.0"?>
-<Locations>
-  <Project>
-    <vfs_file>/home/wruslan/github/studio-ada2012-ch01/studio_ada2012_ch01.gpr</vfs_file>
-    <file_marker current="true" column=" 1" line=" 1" >
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 23" >
+      <vfs_project>/home/wruslan/github/studio-ada2012-ch01/studio_ada2012_ch01.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/studio-ada2012-ch01/src/stdmain_ada2012_ch01.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 32" >
+      <vfs_project>/home/wruslan/github/studio-ada2012-ch01/studio_ada2012_ch01.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/studio-ada2012-ch01/src/stdmain_ada2012_ch01.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 35" >
+      <vfs_project>/home/wruslan/github/studio-ada2012-ch01/studio_ada2012_ch01.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/studio-ada2012-ch01/src/stdmain_ada2012_ch01.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 9" line=" 32" >
       <vfs_project>/home/wruslan/github/studio-ada2012-ch01/studio_ada2012_ch01.gpr</vfs_project>
       <vfs_file>/home/wruslan/github/studio-ada2012-ch01/src/stdmain_ada2012_ch01.adb</vfs_file>
     </file_marker>

@@ -1,0 +1,52 @@
+{
+  "spark": [
+    {
+      "name": "stdmain_ada2012_ch01",
+      "sloc": [
+        {
+          "file": "stdmain_ada2012_ch01.adb",
+          "line": 20
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "stdmain_ada2012_ch01",
+          "sloc": [
+            {
+              "file": "stdmain_ada2012_ch01.adb",
+              "line": 20
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 3.84599994868040E-03,
+    "flow analysis": 1.30300002638251E-03,
+    "marking": 6.44200015813112E-03,
+    "globals (basic)": 3.02900001406670E-03
+  }
+}
