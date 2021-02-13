@@ -1,0 +1,30 @@
+'2021-02-13T14:35:15.033391':
+  category: GNATprove
+  files:
+  - /home/wruslan/github/studio-ada2012-ch01/obj/gnatprove
+  label: Examine All
+  output: 'gprconfig: can''t find a native toolchain for language ''ada''
+
+    Phase 1 of 2: generation of Global contracts ...
+
+    gprconfig: can''t find a toolchain for the following configuration:
+
+    gprconfig: language ''ada'', target ''all'', default runtime
+
+    gprconfig: can''t find a native toolchain for language ''ada''
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    gprconfig: can''t find a toolchain for the following configuration:
+
+    gprconfig: language ''ada'', target ''all'', default runtime
+
+    gprconfig: can''t find a native toolchain for language ''ada''
+
+    warning: no bodies have been analyzed by GNATprove
+
+    enable analysis of a non-generic body using SPARK_Mode
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-02-13T14:35:15.033391'

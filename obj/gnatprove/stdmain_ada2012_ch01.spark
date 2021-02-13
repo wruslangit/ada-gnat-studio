@@ -1,0 +1,24 @@
+{
+  "spark": [
+    {
+      "name": "stdmain_ada2012_ch01",
+      "sloc": [
+        {
+          "file": "stdmain_ada2012_ch01.adb",
+          "line": 18
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "globals/properties (advanced)": 7.27700022980571E-03,
+    "flow analysis": 1.38999996124767E-04,
+    "marking": 6.21599983423948E-03,
+    "globals (basic)": 1.20359003543854E-01
+  }
+}

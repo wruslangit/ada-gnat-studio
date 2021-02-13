@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__stdmain_ada2012_ch01.o
+[PROJECT FILES]
+/home/wruslan/github/studio-ada2012-ch01/studio_ada2012_ch01.gpr
+20210213034654
+[BOUND OBJECT FILES]
+/home/wruslan/github/studio-ada2012-ch01/obj/stdmain_ada2012_ch01.o
+[GENERATED SOURCE FILES]
+b__stdmain_ada2012_ch01.ads
+b__stdmain_ada2012_ch01.adb
+b__stdmain_ada2012_ch01.ali
+[RESULTING OPTIONS]
+-L/home/wruslan/github/studio-ada2012-ch01/obj/
+-L/home/wruslan/github/studio-ada2012-ch01/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+-shared
+-shared-libgcc
+-lgnat-9
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/9/adalib/
+/usr/lib

@@ -1,0 +1,88 @@
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github$ cd studio-ada2012-ch01/
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ date
+Sat 13 Feb 2021 03:02:23 PM +08
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ uname -a
+Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 #1 SMP PREEMPT_RT Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ lsb_release -a
+LSB Version:	core-11.1.0ubuntu2-noarch:security-11.1.0ubuntu2-noarch
+Distributor ID:	Ubuntu
+Description:	Ubuntu 20.04.2 LTS
+Release:	20.04
+Codename:	focal
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ 
+
+
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ ls -al
+total 44
+drwxrwxr-x  8 wruslan wruslan 4096 Feb 13 11:46 .
+drwxrwxr-x 18 wruslan wruslan 4096 Feb 13 11:35 ..
+drwxrwxr-x  2 wruslan wruslan 4096 Feb 13 11:06 docs
+drwxrwxr-x  3 wruslan wruslan 4096 Feb 13 14:35 exec
+drwxrwxr-x  2 wruslan wruslan 4096 Feb 13 11:06 figures
+drwxrwxr-x  8 wruslan wruslan 4096 Feb 13 14:19 .git
+drwxrwxr-x  4 wruslan wruslan 4096 Feb 13 14:53 obj
+-rw-rw-r--  1 wruslan wruslan   40 Feb 13 11:35 README.md
+drwxrwxr-x  2 wruslan wruslan 4096 Feb 13 14:19 src
+-rw-rw-r--  1 wruslan wruslan 4355 Feb 13 11:46 studio_ada2012_ch01.gpr
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ tree ./
+./
+├── docs
+├── exec
+│   ├── gnatprove
+│   │   └── phase1
+│   └── stdmain_ada2012_ch01.adx
+├── figures
+├── obj
+│   ├── b__stdmain_ada2012_ch01.adb
+│   ├── b__stdmain_ada2012_ch01.ads
+│   ├── b__stdmain_ada2012_ch01.ali
+│   ├── b__stdmain_ada2012_ch01.o
+│   ├── gnatprove
+│   │   ├── gnatprove.out
+│   │   ├── phase1
+│   │   │   ├── stdmain_ada2012_ch01.adb.stderr
+│   │   │   ├── stdmain_ada2012_ch01.adb.stdout
+│   │   │   ├── stdmain_ada2012_ch01.ali
+│   │   │   └── stdmain_ada2012_ch01.cswi
+│   │   ├── stdmain_ada2012_ch01.adb.stderr
+│   │   ├── stdmain_ada2012_ch01.adb.stdout
+│   │   ├── stdmain_ada2012_ch01.ali
+│   │   ├── stdmain_ada2012_ch01.cswi
+│   │   ├── stdmain_ada2012_ch01.spark
+│   │   └── why3.conf
+│   ├── runs.yaml
+│   ├── saved_runs
+│   │   └── 2021-02-13T14_35_15.033391
+│   │       └── gnatprove
+│   │           ├── gnatprove.out
+│   │           ├── phase1
+│   │           │   ├── stdmain_ada2012_ch01.adb.stderr
+│   │           │   ├── stdmain_ada2012_ch01.adb.stdout
+│   │           │   ├── stdmain_ada2012_ch01.ali
+│   │           │   └── stdmain_ada2012_ch01.cswi
+│   │           ├── stdmain_ada2012_ch01.adb.stderr
+│   │           ├── stdmain_ada2012_ch01.adb.stdout
+│   │           ├── stdmain_ada2012_ch01.ali
+│   │           ├── stdmain_ada2012_ch01.cswi
+│   │           ├── stdmain_ada2012_ch01.spark
+│   │           └── why3.conf
+│   ├── stdmain_ada2012_ch01.adb.stderr
+│   ├── stdmain_ada2012_ch01.adb.stdout
+│   ├── stdmain_ada2012_ch01.ali
+│   ├── stdmain_ada2012_ch01.bexch
+│   ├── stdmain_ada2012_ch01.cswi
+│   ├── stdmain_ada2012_ch01.o
+│   └── studio_ada2012_ch01-loc.xml
+├── README.md
+├── src
+│   └── stdmain_ada2012_ch01.adb
+└── studio_ada2012_ch01.gpr
+
+13 directories, 38 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/studio-ada2012-ch01$ 
+
+
