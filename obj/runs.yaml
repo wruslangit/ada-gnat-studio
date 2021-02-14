@@ -1,14 +1,14 @@
-'2021-02-13T15:46:38.778560':
+'2021-02-13T16:51:08.977380':
   category: GNATprove
   files:
   - /home/wruslan/github/studio-ada2012-ch01/obj/gnatprove
-  label: Examine All
+  label: Basic Prove File
   output: 'Phase 1 of 2: generation of Global contracts ...
 
-    Phase 2 of 2: analysis of data and information flow ...
+    Phase 2 of 2: flow analysis and proof ...
 
     Summary logged in /home/wruslan/github/studio-ada2012-ch01/obj/gnatprove/gnatprove.out
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-02-13T15:46:38.778560'
+  timestamp: '2021-02-13T16:51:08.977380'

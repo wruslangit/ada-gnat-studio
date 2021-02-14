@@ -1,0 +1,35 @@
+GNAT-STUDIO TOOLCHAIN PATH = /usr/local/bin
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/local/bin | grep gnat
+lrwxrwxrwx  1 root root      40 Feb 14 17:47 gnatbind -> /home/wruslan/opt/GNAT/2020/bin/gnatbind
+lrwxrwxrwx  1 root root      40 Feb 14 17:48 gnatlink -> /home/wruslan/opt/GNAT/2020/bin/gnatlink
+lrwxrwxrwx  1 root root      40 Feb 14 17:48 gnatmake -> /home/wruslan/opt/GNAT/2020/bin/gnatmake
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /home/wruslan/opt/GNAT/2020/bin/ | grep gnat
+-rwxr-xr-x  1 wruslan wruslan   909992 Aug 19 18:02 gnat
+-rwxr-xr-x  1 wruslan wruslan  2106016 Aug 19 18:02 gnatbind
+-rwxr-xr-x  1 wruslan wruslan  1205608 Aug 19 18:02 gnatchop
+-rwxr-xr-x  1 wruslan wruslan  1715176 Aug 19 18:02 gnatclean
+-rwxr-xr-x  1 wruslan wruslan 30343632 Apr 28  2020 gnatdoc
+-rwxr-xr-x  1 wruslan wruslan  1176936 Aug 19 18:02 gnatfind
+-rwxr-xr-x  1 wruslan wruslan    32143 Jul 25  2020 gnathtml.pl
+-rwxr-xr-x  1 wruslan wruslan 11635128 Apr 28  2020 gnatinspect
+-rwxr-xr-x  1 wruslan wruslan   831840 Aug 19 18:02 gnatkr
+-rwxr-xr-x  1 wruslan wruslan  1008960 Aug 19 18:02 gnatlink
+-rwxr-xr-x  1 wruslan wruslan  1830112 Aug 19 18:02 gnatls
+-rwxr-xr-x  1 wruslan wruslan  2094928 Aug 19 18:02 gnatmake
+-rwxr-xr-x  1 wruslan wruslan  1537136 Aug 19 19:32 gnatmem
+-rwxr-xr-x  1 wruslan wruslan 20420336 Aug 19 20:40 gnatmetric
+-rwxr-xr-x  1 wruslan wruslan  1632392 Aug 19 18:02 gnatname
+-rwxr-xr-x  1 wruslan wruslan 20876592 Aug 19 20:40 gnatpp
+-rwxr-xr-x  1 wruslan wruslan  1714688 Aug 19 18:02 gnatprep
+-rwxr-xr-x  1 wruslan wruslan  8233856 Aug 19 21:38 gnatprove
+-rwxr-xr-x  1 wruslan wruslan 20971024 Aug 19 20:40 gnatstub
+-rwxr-xr-x  1 wruslan wruslan     3156 Apr 28  2020 gnatstudio
+-rwxr-xr-x  1 wruslan wruslan 30278000 Apr 28  2020 gnatstudio_cli
+-rwxr-xr-x  1 wruslan wruslan 74725840 Apr 28  2020 gnatstudio_exe
+-rwxr-xr-x  1 wruslan wruslan   685368 Aug 18 17:39 gnatsymbolize
+-rwxr-xr-x  1 wruslan wruslan  1176936 Aug 19 18:02 gnatxref
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+

@@ -1,0 +1,150 @@
+GNAT-GPS TOOLCHAIN PATH = /usr/bin
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/bin | grep gnatbind
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatbind -> arm-linux-gnueabi-gnatbind-9
+-rwxr-xr-x  1 root   root        2135856 Sep 16 20:33 arm-linux-gnueabi-gnatbind-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatbind -> arm-linux-gnueabihf-gnatbind-9
+-rwxr-xr-x  1 root   root        2135856 Sep 16 20:33 arm-linux-gnueabihf-gnatbind-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatbind -> gnatbind-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatbind-9 -> x86_64-linux-gnu-gnatbind-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatbind -> x86_64-linux-gnu-gnatbind-9
+-rwxr-xr-x  1 root   root        1015440 Aug  8  2020 x86_64-linux-gnu-gnatbind-9
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/bin | grep gnatlink
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatlink -> arm-linux-gnueabi-gnatlink-9
+-rwxr-xr-x  1 root   root        1459840 Sep 16 20:33 arm-linux-gnueabi-gnatlink-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatlink -> arm-linux-gnueabihf-gnatlink-9
+-rwxr-xr-x  1 root   root        1459840 Sep 16 20:33 arm-linux-gnueabihf-gnatlink-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatlink -> gnatlink-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatlink-9 -> x86_64-linux-gnu-gnatlink-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatlink -> x86_64-linux-gnu-gnatlink-9
+-rwxr-xr-x  1 root   root         755952 Aug  8  2020 x86_64-linux-gnu-gnatlink-9
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/bin | grep gnatmake
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatmake -> arm-linux-gnueabi-gnatmake-9
+-rwxr-xr-x  1 root   root        2662904 Sep 16 20:33 arm-linux-gnueabi-gnatmake-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatmake -> arm-linux-gnueabihf-gnatmake-9
+-rwxr-xr-x  1 root   root        2662904 Sep 16 20:33 arm-linux-gnueabihf-gnatmake-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatmake -> gnatmake-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatmake-9 -> x86_64-linux-gnu-gnatmake-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatmake -> x86_64-linux-gnu-gnatmake-9
+-rwxr-xr-x  1 root   root        1057296 Aug  8  2020 x86_64-linux-gnu-gnatmake-9
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ ls -al /usr/bin | grep gnat
+lrwxrwxrwx  1 root   root             24 Sep 16 20:33 arm-linux-gnueabi-gnat -> arm-linux-gnueabi-gnat-9
+-rwxr-xr-x  1 root   root        1369416 Sep 16 20:33 arm-linux-gnueabi-gnat-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatbind -> arm-linux-gnueabi-gnatbind-9
+-rwxr-xr-x  1 root   root        2135856 Sep 16 20:33 arm-linux-gnueabi-gnatbind-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatchop -> arm-linux-gnueabi-gnatchop-9
+-rwxr-xr-x  1 root   root        1669240 Sep 16 20:33 arm-linux-gnueabi-gnatchop-9
+lrwxrwxrwx  1 root   root             29 Sep 16 20:33 arm-linux-gnueabi-gnatclean -> arm-linux-gnueabi-gnatclean-9
+-rwxr-xr-x  1 root   root        2313552 Sep 16 20:33 arm-linux-gnueabi-gnatclean-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatfind -> arm-linux-gnueabi-gnatfind-9
+-rwxr-xr-x  1 root   root        1636488 Sep 16 20:33 arm-linux-gnueabi-gnatfind-9
+lrwxrwxrwx  1 root   root             23 Sep 16 20:33 arm-linux-gnueabi-gnatgcc -> arm-linux-gnueabi-gcc-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnathtml -> arm-linux-gnueabi-gnathtml-9
+-rwxr-xr-x  1 root   root          32139 Sep 16 20:33 arm-linux-gnueabi-gnathtml-9
+lrwxrwxrwx  1 root   root             26 Sep 16 20:33 arm-linux-gnueabi-gnatkr -> arm-linux-gnueabi-gnatkr-9
+-rwxr-xr-x  1 root   root        1315784 Sep 16 20:33 arm-linux-gnueabi-gnatkr-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatlink -> arm-linux-gnueabi-gnatlink-9
+-rwxr-xr-x  1 root   root        1459840 Sep 16 20:33 arm-linux-gnueabi-gnatlink-9
+lrwxrwxrwx  1 root   root             26 Sep 16 20:33 arm-linux-gnueabi-gnatls -> arm-linux-gnueabi-gnatls-9
+-rwxr-xr-x  1 root   root        2506352 Sep 16 20:33 arm-linux-gnueabi-gnatls-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatmake -> arm-linux-gnueabi-gnatmake-9
+-rwxr-xr-x  1 root   root        2662904 Sep 16 20:33 arm-linux-gnueabi-gnatmake-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatname -> arm-linux-gnueabi-gnatname-9
+-rwxr-xr-x  1 root   root        2259792 Sep 16 20:33 arm-linux-gnueabi-gnatname-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatprep -> arm-linux-gnueabi-gnatprep-9
+-rwxr-xr-x  1 root   root        2411792 Sep 16 20:33 arm-linux-gnueabi-gnatprep-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabi-gnatxref -> arm-linux-gnueabi-gnatxref-9
+-rwxr-xr-x  1 root   root        1636488 Sep 16 20:33 arm-linux-gnueabi-gnatxref-9
+lrwxrwxrwx  1 root   root             26 Sep 16 20:33 arm-linux-gnueabihf-gnat -> arm-linux-gnueabihf-gnat-9
+-rwxr-xr-x  1 root   root        1369416 Sep 16 20:33 arm-linux-gnueabihf-gnat-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatbind -> arm-linux-gnueabihf-gnatbind-9
+-rwxr-xr-x  1 root   root        2135856 Sep 16 20:33 arm-linux-gnueabihf-gnatbind-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatchop -> arm-linux-gnueabihf-gnatchop-9
+-rwxr-xr-x  1 root   root        1669240 Sep 16 20:33 arm-linux-gnueabihf-gnatchop-9
+lrwxrwxrwx  1 root   root             31 Sep 16 20:33 arm-linux-gnueabihf-gnatclean -> arm-linux-gnueabihf-gnatclean-9
+-rwxr-xr-x  1 root   root        2313552 Sep 16 20:33 arm-linux-gnueabihf-gnatclean-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatfind -> arm-linux-gnueabihf-gnatfind-9
+-rwxr-xr-x  1 root   root        1636488 Sep 16 20:33 arm-linux-gnueabihf-gnatfind-9
+lrwxrwxrwx  1 root   root             25 Sep 16 20:33 arm-linux-gnueabihf-gnatgcc -> arm-linux-gnueabihf-gcc-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnathtml -> arm-linux-gnueabihf-gnathtml-9
+-rwxr-xr-x  1 root   root          32139 Sep 16 20:33 arm-linux-gnueabihf-gnathtml-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabihf-gnatkr -> arm-linux-gnueabihf-gnatkr-9
+-rwxr-xr-x  1 root   root        1315784 Sep 16 20:33 arm-linux-gnueabihf-gnatkr-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatlink -> arm-linux-gnueabihf-gnatlink-9
+-rwxr-xr-x  1 root   root        1459840 Sep 16 20:33 arm-linux-gnueabihf-gnatlink-9
+lrwxrwxrwx  1 root   root             28 Sep 16 20:33 arm-linux-gnueabihf-gnatls -> arm-linux-gnueabihf-gnatls-9
+-rwxr-xr-x  1 root   root        2506352 Sep 16 20:33 arm-linux-gnueabihf-gnatls-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatmake -> arm-linux-gnueabihf-gnatmake-9
+-rwxr-xr-x  1 root   root        2662904 Sep 16 20:33 arm-linux-gnueabihf-gnatmake-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatname -> arm-linux-gnueabihf-gnatname-9
+-rwxr-xr-x  1 root   root        2259792 Sep 16 20:33 arm-linux-gnueabihf-gnatname-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatprep -> arm-linux-gnueabihf-gnatprep-9
+-rwxr-xr-x  1 root   root        2411792 Sep 16 20:33 arm-linux-gnueabihf-gnatprep-9
+lrwxrwxrwx  1 root   root             30 Sep 16 20:33 arm-linux-gnueabihf-gnatxref -> arm-linux-gnueabihf-gnatxref-9
+-rwxr-xr-x  1 root   root        1636488 Sep 16 20:33 arm-linux-gnueabihf-gnatxref-9
+lrwxrwxrwx  1 root   root              6 Aug  8  2020 gnat -> gnat-9
+lrwxrwxrwx  1 root   root             23 Aug  8  2020 gnat-9 -> x86_64-linux-gnu-gnat-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatbind -> gnatbind-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatbind-9 -> x86_64-linux-gnu-gnatbind-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatchop -> gnatchop-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatchop-9 -> x86_64-linux-gnu-gnatchop-9
+lrwxrwxrwx  1 root   root             11 Aug  8  2020 gnatclean -> gnatclean-9
+lrwxrwxrwx  1 root   root             28 Aug  8  2020 gnatclean-9 -> x86_64-linux-gnu-gnatclean-9
+-rwxr-xr-x  1 root   root         350600 Mar 25  2020 gnatcoll_sqlite2ada
+-rwxr-xr-x  1 root   root       10252416 Feb 26  2020 gnatdoc
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatfind -> gnatfind-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatfind-9 -> x86_64-linux-gnu-gnatfind-9
+lrwxrwxrwx  1 root   root             31 Nov 22 15:22 gnatgcc -> /usr/bin/x86_64-linux-gnu-gcc-9
+lrwxrwxrwx  1 root   root             22 Aug  8  2020 gnatgcc-OLD -> x86_64-linux-gnu-gcc-9
+-rwxr-xr-x  1 root   root       53806096 Feb 26  2020 gnat-gps
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnathtml -> gnathtml-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnathtml-9 -> x86_64-linux-gnu-gnathtml-9
+-rwxr-xr-x  1 root   root         211464 Mar 25  2020 gnatinspect
+lrwxrwxrwx  1 root   root              8 Aug  8  2020 gnatkr -> gnatkr-9
+lrwxrwxrwx  1 root   root             25 Aug  8  2020 gnatkr-9 -> x86_64-linux-gnu-gnatkr-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatlink -> gnatlink-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatlink-9 -> x86_64-linux-gnu-gnatlink-9
+lrwxrwxrwx  1 root   root              8 Aug  8  2020 gnatls -> gnatls-9
+lrwxrwxrwx  1 root   root             25 Aug  8  2020 gnatls-9 -> x86_64-linux-gnu-gnatls-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatmake -> gnatmake-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatmake-9 -> x86_64-linux-gnu-gnatmake-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatname -> gnatname-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatname-9 -> x86_64-linux-gnu-gnatname-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatprep -> gnatprep-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatprep-9 -> x86_64-linux-gnu-gnatprep-9
+lrwxrwxrwx  1 root   root             10 Aug  8  2020 gnatxref -> gnatxref-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 gnatxref-9 -> x86_64-linux-gnu-gnatxref-9
+lrwxrwxrwx  1 root   root             23 Aug  8  2020 x86_64-linux-gnu-gnat -> x86_64-linux-gnu-gnat-9
+-rwxr-xr-x  1 root   root         661296 Aug  8  2020 x86_64-linux-gnu-gnat-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatbind -> x86_64-linux-gnu-gnatbind-9
+-rwxr-xr-x  1 root   root        1015440 Aug  8  2020 x86_64-linux-gnu-gnatbind-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatchop -> x86_64-linux-gnu-gnatchop-9
+-rwxr-xr-x  1 root   root         686256 Aug  8  2020 x86_64-linux-gnu-gnatchop-9
+lrwxrwxrwx  1 root   root             28 Aug  8  2020 x86_64-linux-gnu-gnatclean -> x86_64-linux-gnu-gnatclean-9
+-rwxr-xr-x  1 root   root         814064 Aug  8  2020 x86_64-linux-gnu-gnatclean-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatfind -> x86_64-linux-gnu-gnatfind-9
+-rwxr-xr-x  1 root   root         739760 Aug  8  2020 x86_64-linux-gnu-gnatfind-9
+lrwxrwxrwx  1 root   root             22 Aug  8  2020 x86_64-linux-gnu-gnatgcc -> x86_64-linux-gnu-gcc-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnathtml -> x86_64-linux-gnu-gnathtml-9
+-rwxr-xr-x  1 root   root          32139 Aug  8  2020 x86_64-linux-gnu-gnathtml-9
+lrwxrwxrwx  1 root   root             25 Aug  8  2020 x86_64-linux-gnu-gnatkr -> x86_64-linux-gnu-gnatkr-9
+-rwxr-xr-x  1 root   root         648816 Aug  8  2020 x86_64-linux-gnu-gnatkr-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatlink -> x86_64-linux-gnu-gnatlink-9
+-rwxr-xr-x  1 root   root         755952 Aug  8  2020 x86_64-linux-gnu-gnatlink-9
+lrwxrwxrwx  1 root   root             25 Aug  8  2020 x86_64-linux-gnu-gnatls -> x86_64-linux-gnu-gnatls-9
+-rwxr-xr-x  1 root   root         954000 Aug  8  2020 x86_64-linux-gnu-gnatls-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatmake -> x86_64-linux-gnu-gnatmake-9
+-rwxr-xr-x  1 root   root        1057296 Aug  8  2020 x86_64-linux-gnu-gnatmake-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatname -> x86_64-linux-gnu-gnatname-9
+-rwxr-xr-x  1 root   root         756304 Aug  8  2020 x86_64-linux-gnu-gnatname-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatprep -> x86_64-linux-gnu-gnatprep-9
+-rwxr-xr-x  1 root   root         859440 Aug  8  2020 x86_64-linux-gnu-gnatprep-9
+lrwxrwxrwx  1 root   root             27 Aug  8  2020 x86_64-linux-gnu-gnatxref -> x86_64-linux-gnu-gnatxref-9
+-rwxr-xr-x  1 root   root         739760 Aug  8  2020 x86_64-linux-gnu-gnatxref-9
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ 
+
+
